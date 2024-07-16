@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> IYADA Logiciel de gestion du cabinet médical</title>
+    <link rel="stylesheet" href="iyada.css">
+    <style>
+        .hidden {
+            display: none;
+        }
+        .logo img {
+            width: 65px; 
+            height: auto; 
+        }
+        
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <a href="iyada.html"><img src="./ayada logo.png" alt="Logo Ayada"></a>
+    </div>
+    
+    <ul class="menu">
+        <li><a href="#fonctionnalites">Fonctionnalités</a></li>
+        <li><a href="#Témoignages">Témoignages</a></li>
+        <li><a href="#PACKS">PACKS</a></li>
+        <li><a href="#DEMO">DEMO</a></li>
+        <li><a href="#FAQ">FAQ</a></li>
+        <li><a href="#Blog">Blog</a></li>
+        <li><a href="#">+212 663 73 90 26</a></li>
+    </ul>
+
+
+
+
+
+
+
+    <a href="#" class="btn-essaigratuit" onclick="afficherFormulaire()">Essai Gratuit</a>
+</header>
+
+<section id="home">
+    <a href="iyada.html"><img src="ORDI_CAPTURE-removebg-preview.png" alt="Illustration" class="image-droite"></a>
+
+
+
+    <p>LEADER Logiciel de<br> Gestion de Cabinet <br> Médical au Maroc<br></p>
+        <p2> 1er ERP pour une Gestion à 360° du Cabinet Médical en Afrique</p>
+    <a href="#" class="btn-essaigratuit home-btn" onclick="afficherFormulaire()"> DEMANDER UN ESSAI</a>
+    
+
+
+</section>
+
+
+<div id="formulaire" class="hidden">
+    <h2>Formulaire d'inscription :</h2>
+    <form action="/submit-details" method="post">
+        <div>
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Prénom" required>
+        </div>
+        <div>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" placeholder="Nom" required>
+        </div>
+        <div>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+        </div>
+        <div>
+            <label for="telephone">Téléphone :</label>
+            <input type="tel" id="telephone" name="telephone" placeholder="Téléphone">
+        </div>
+        <div>
+            <label for="specialite">Spécialité :</label>
+            <select id="specialite" name="specialite">
+                <option value="Allergologie">Allergologie</option>
+                <option value="Cancérologie">Cancérologie</option>
+                <option value="Dermatologie">Dermatologie</option>
+                <option value="Cardiologie">Cardiologie</option>
+                <option value="Chirurgie">Chirurgie</option>
+            </select>
+        </div>
+        <div>
+            <label for="ville">Ville :</label>
+            <input type="text" id="ville" name="ville" placeholder="Ville">
+        </div>
+        <br>
+        <button type="submit">Envoyer</button>
+    </form>
+</div>
+
+<script>
+    function afficherFormulaire() {
+        document.getElementById('formulaire').style.display = 'block';
+    }
+</script>
+
+<div>
+<p class="par">IYADA Logiciel de gestion du cabinet médical  </p>
+</div>
+
+<div class="container">
+    <div class="text">
+        <h1>Concentrez-vous sur l'essentiel, VOS PATIENTS.</h1>
+        <br><p> Découvrez IYADA, votre allié pour une gestion optimale de votre cabinet médical. Conçu comme un logiciel ERP sur mesure, IYADA offre une solution complète pour répondre aux besoins spécifiques de tous les types de cabinets médicaux, quelle que soit leur spécialité. <br> </p>
+         <br> <p>Fruit d'une collaboration étroite entre des praticiens expérimentés et nos équipes dévouées, IYADA incarne l'expertise fonctionnelle et technique acquise sur le terrain dans le secteur médical. Cette synergie a permis de développer une solution de gestion complète, dotée de divers modules et de toutes les fonctionnalités indispensables pour simplifier le quotidien de nos précieux médecins.<br></p>
+         <br> <p>Grâce à ses interfaces graphiques intuitives, IYADA offre une expérience utilisateur optimale, permettant une prise en main rapide et une utilisation fluide au quotidien. De plus, notre approche axée sur les processus garantit une adaptabilité totale à vos besoins spécifiques, ainsi qu'une configuration simple et personnalisable selon vos méthodes de travail.<br></p>
+        <br><p>IYADA va au-delà de la simple gestion interne du cabinet en prenant en charge une grande partie des opérations quotidiennes avec les tiers tels que les assurances, les cliniques, les PEC et les fournisseurs. Avec IYADA, libérez-vous des tâches administratives chronophages pour vous concentrer pleinement sur vos patients.<br></p>
+        <br><p>Faites le choix de la performance et de la simplicité avec IYADA, le logiciel de gestion qui s'adapte à votre cabinet.</p>
+        <button class="btn-more-info">Plus d'infos</button>
+    </div>
+    <div class="image-container">
+        <img src="image 1.png" alt="image" class="image1">
+        <img src="image iyada.png" alt="image" class="image2">
+    </div>
+</div>
+<div class="container-para">
+    <div class="image-container">
+        <img src="DOCTOR image.png" alt="image" class="image3">
+    </div>
+    <div class="content-para">         
+        <h1> Un logiciel médical pour toute la gestion de votre cabinet </h1>
+        <p> Le logiciel médical IYADA regroupe tous les outils et intégrations nécessaires pour une gestion globale de votre cabinet médical. Prise de rendez-vous en ligne, agenda médical, dossier médical informatisé, suivie des consultations ,gestion de stock , gestion de matériel (…) module dédier pour chaque spécialité Médicale .</p>
+    </div>
+</div>
+</div>
+<section id="Témoignages">
+<div class="title">
+<h1> Découvrez ce qu'en pensent vos confrères  </h1>
+</div>
+
+
+<div class="video-container">
+    <iframe width="1000" height="500" src="https://www.youtube.com/embed/QDeCEhQ4kxk?si=pLg2v13SraYNJ4Y0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </div>
+
+</section>
+
+<div class="container avis">
+<div class="card">
+<div class="header">
+    <img src="./doct 1.jpg" alt="Dr Boucetta Youssef">
+    <div>
+<div class="name"> Dr Boucetta Youssef </div>
+<div class="title">Urologue-Fès  </div>
+    </div>
+</div>
+<div class="rating"> ★★★★★ </div>
+<p> Très bon logiciel de gestion de mon cabinet. Service après vente à la hauteur     </p>
+</div>
+
+<div class="card">
+    <div class="header">
+        <img src="./DOCT 2.jpg" alt="Dr Mjigal Hicham">
+        <div>
+    <div class="name"> Dr Mjigal Hicham </div>
+    <div class="title"> Gynecologue-Rabat </div>
+        </div>
+    </div>
+    <div class="rating"> ★★★★★ </div>
+    <p> Solution de gestion de cabinet moderne, ergonomique, personnalisable avec un SAV très réactif. Je recommande vivement  </p>
+    </div>
+
+    <div class="card">
+        <div class="header">
+            <img src="./doct 3.jpg" alt=" Dr Figuigui Mouna ">
+            <div>
+        <div class="name"> Dr Figuigui Mouna </div>
+        <div class="title"> Gastrologue - Fès </div>
+            </div>
+        </div>
+        <div class="rating"> ★★★★★ </div>
+        <p> Logiciel excellent facile à utiliser, présente beaucoup de qualités. Il nous facilite la gestion de nos malades. Assistance et bienveillance irréprochables. Je le recommande vivement. </p>
+        </div>
+
+        <div class="card">
+            <div class="header">
+                <img src="./DOCT 4.jpg" alt=" Dr EL Amrani Reda ">
+                <div>
+            <div class="name"> Dr EL Amrani Reda </div>
+            <div class="title"> Géneraliste - Bouhouda </div>
+                </div>
+            </div>
+            <div class="rating"> ★★★★★ </div>
+            <p> Enfin une solution qui répond aux besoins personnalisés d'un cabinet médical, Equipe professionnelle attentive et efficace. Je recommande vivement le logiciel IYADA® </p>
+            </div>
+
+            <div class="card">
+                <div class="header">
+                    <img src="./doct 5.jpg" alt=" DR Madri Fatima Ezzahra ">
+                    <div>
+                <div class="name"> DR Madri Fatima Ezzahra </div>
+                <div class="title"> Gynécologue Obstétricienne - Casablanca </div>
+                    </div>
+                </div>
+                <div class="rating"> ★★★★★ </div>
+                <p> Logiciel à point et très performant. Une équipe très créative et aux petits soins. Je recommande sans hésitation. </p>
+                </div>
+
+                <div class="card">
+                    <div class="header">
+                        <img src="./doct 6.jpg" alt=" DR Gounain Fatima Ezzahra ">
+                        <div>
+                    <div class="name"> DR Gounain Fatima Ezzahra </div>
+                    <div class="title"> Gynécologue Obstétricienne - Fès </div>
+                        </div>
+                    </div>
+                    <div class="rating"> ★★★★★ </div>
+                    <p> Ce logiciel est parfait Avec responsable à l écoute Vraiment rien a dire. </p>
+                    </div>
+
+                    <div class="card">
+                        <div class="header">
+                            <img src="./DOCT 7.jpg" alt=" Dr Touimi Benjelloun AHMED ">
+                            <div>
+                        <div class="name"> Dr Touimi Benjelloun AHMED </div>
+                        <div class="title"> Gynécologue - Casablanca </div>
+                            </div>
+                        </div>
+                        <div class="rating"> ★★★★★ </div>
+                        <p> Logiciel pratique, très utile pour la gestion de mon temps et de mes patientes. Le service après vente est juste top </p>
+                        </div>
+
+                       <div class="card">
+                        <div class="header">
+                            <img src="./DOCT 8.jpg" alt=" Dr IDRISSI OUKILI Saad ">
+                            <div>
+                        <div class="name"> Dr IDRISSI OUKILI Saad </div>
+                        <div class="title"> Psychiatre - Fès </div>
+                            </div>
+                        </div>
+                        <div class="rating"> ★★★★★ </div>
+                        <p> Solution de gestion de cabinet de haut niveau. Facile et intuitif, j'ai commencé ma carrière en privé avec IYADA Je consulte mes dossiers partout ou je suis à partir de mon téléphone, et je peux même créer et envoyer des documents médicaux si nécessaire..Logiciel complet il prend en charge la gestion totale du cabinet, du parcours patient, de la comptabilité, de gestion de stock, de l'amortissement bien plus encore. Très facile d'utilisation, fiable et adaptable selon le besoin. Jusqu'à ce jour je n'ai eu aucun problème technique ni mauvaise surprise. Sans compter et service client qui est irréprochable</p>
+                        </div>
+
+
+</div>
+</div>
+
+<div class="fonc">
+<h1> Fonctionnalités IYADA  </h1>
+  <p> Concentrez-vous sur l'essentiel, VOS PATIENTS  </p> 
+
+</div>
+<div class="Fonctionnalités IYADA">
+        <img src="./mobile.png" alt="mobile" class= "mobile"></div>
+</div>
+
+        <div class="Icon">
+            <div class="icon-box">
+                <img src="./calendrier-removebg-preview.png" alt="Icon 1">
+                <h3>Gestion des RDV</h3>
+        <p>Planification des disponibilités en temps réel lors des prises des rendez-vous avec SMS de rappel pour vos patients.</p>
+    </div>
+    <div class="icon-box">
+        <img src="./alarm_icon-removebg-preview.png" alt="Icon 2">
+        <h3>Agenda SMART</h3>
+        <p>Agenda interfacé avec votre site web et le logiciel IYADA.</p>
+    </div>
+    <div class="icon-box">
+        <img src="./Capture_d_écran_2024-07-04_110558-removebg-preview.png" alt="Icon 3">
+        <h3>Dossier patient</h3>
+        <p>Accédez à vos dossiers patients de partout en un clic et retrouvez rapidement une information grâce à notre moteur de recherche.</p>
+    </div>
+    <div class="icon-box">
+        <img src="./Capture_d_écran_2024-07-04_110108-removebg-preview.png" alt="Icon 4">
+        <h3>Reporting</h3>
+        <p>Suivez l'activité de votre cabinet en temps réel : nombre de rendez-vous par motifs de consultation, taux de rendez-vous non honorés, taux de prise de rendez-vous en ligne, nombre de nouveaux patients, CA, etc.</p>
+    </div>
+    <div class="icon-box">
+        <img src="./COEUR.png" alt="Icon 5">
+        <h3> Gestion des consultations    </h3>
+        <p> Consultation des dossiers patients et suivi des actes effectués.  </p>
+    </div>
+ 
+    <div class="icon-box">
+        <img src="Capture_d_écran_4-7-2024_121410_iyada.ma-removebg-preview.png" alt="Icon 6">
+        <h3> Prescription        </h3>
+        <p>  (LAP) Logiciel d'Aide à la Prescription. Accédez rapidement à n'importe quelle information et prescrivez en toute sérénité avec notre logiciel .  </p>
+    </div>
+
+    <div class="icon-box">
+        <img src="ICONEEE.png" alt="Icon 7">
+        <h3> Gestion du matériel       </h3>
+        <p> Gestion des équipements du cabinet, liste du matériel, affichage QR code de chaque matériel ,gestion d'entretient ...    </p>
+    </div>
+
+    <div class="icon-box">
+        <img src="Capture_d_écran_4-7-2024_12359_iyada.ma-removebg-preview.png" alt="Icon 8">
+        <h3> Téléconsultation        </h3>
+        <p> Planification des consultations à distance Depuis IYADA ou votre site WEB     </p>
+    </div>
+
+    <div class="icon-box">
+        <img src="Capture_d_écran_4-7-2024_12753_iyada.ma-removebg-preview (1).png" alt="Icon 9">
+        <h3> Gestion de stock  </h3>
+        <p> Gestion de votre stock consommable ( médical ,..) dettes fournisseurs, produits, point de stockage, commande, rupture de stock          </p>
+    </div>
+
+    <div class="icon-box">
+        <img src="Capture_d_écran_4-7-2024_12122_iyada.ma-removebg-preview.png" alt="Icon 10">
+        <h3>Salle d'attente       </h3>
+        <p> Iyada permet de notifier la réception de nouveaux patients et gérer instantanément la salle d'attente  </p>
+    </div>
+
+    <div class="icon-box">
+        <img src="Capture_d_écran_4-7-2024_121939_iyada.ma-removebg-preview.png" alt="Icon 11">
+        <h3> Gestion à distance    </h3>
+        <p> Gestion à distance de votre cabinet depuis l'application mobile IYADA </p>
+    </div>
+
+    <div class="icon-box">
+        <img src="Capture_d_écran_4-7-2024_122311_iyada.ma-removebg-preview.png" alt="Icon 12">
+        <h3> Certificats et rapports  </h3>
+        <p>  Template préétablis automatique des certificats et rapports les plus fréquents</p>
+    </div>
+
+    <div class="icon-box">
+        <img src="Capture_d_écran_4-7-2024_12260_iyada.ma-removebg-preview.png" alt="Icon 13">
+        <h3> Certificats et rapports  </h3>
+        <p>  Template préétablis automatique des certificats et rapports les plus fréquents</p>
+    </div>
+ 
+    <div class="icon-box">
+        <img src="Capture_d_écran_4-7-2024_123145_iyada.ma-removebg-preview.png" alt="Icon 14">
+        <h3>  Suivi des paiements   </h3>
+        <p>  Suivi des états des paiements pour chaque patient</p>
+    </div>
+
+    <div class="icon-box">
+        <img src="Capture_d_écran_4-7-2024_123530_iyada.ma-removebg-preview.png" alt="Icon 15">
+        <h3>  FLUX OUT-PUT     </h3>
+        <p> Suivi et gestion globale de vos dépenses          </p>
+    </div>
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
